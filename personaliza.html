@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Living Total</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/css/uikit.min.css" />
+    <style type="text/css">
+    .divisor {
+        padding: 10px 0;
+    }
+
+    .decorado {
+        height: 4px
+    }
+
+    .decorado2 {
+        height: 25px;
+    }
+
+    .caja {
+        background: black;
+        opacity: 0.8;
+        padding: 10px 5px;
+        margin-bottom: 15px;
+    }
+
+    body {
+        background-image: url("images/slider3.jpg");
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="nav-wrapper black">
+                <div class="container">
+                    <a href="index.html" class="brand-logo center">Logo</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="personaliza.html">Personaliza</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="center-align">
+                <h2 class="white-text">Página en construcción</h2>
+                <h3 class="white-text">En cualquier momento estaremos mostrandote lo último en tendencias</h3>
+                <h3 class="white-text">Living Total, Queres comodidad!</h3>
+                <div class="caja">
+                    <div class="uk-grid-small uk-child-width-auto white-text" uk-grid uk-countdown="date: 2018-12-23T17:47:10+00:00">
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-days"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Dias</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Horas</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutos</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Segundos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="decorado2 black"></div>
+    <footer class="page-footer deep-orange accent-4">
+        <div class="container">
+            <h2 class="center-align white-text">¡Gracias por elegirnos!</h2>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Empuje
+                <a class="grey-text text-lighten-4 right" href="www.empuje.com.ar">Pagina web</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/js/uikit-icons.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.slider').slider();
+    });
+    $(document).ready(function() {
+        $('.carousel').carousel();
+    });
+    $(document).ready(function() {
+        $('.parallax').parallax();
+    });
+    </script>
+</body>
+
+</html>
