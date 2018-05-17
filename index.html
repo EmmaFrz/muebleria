@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <style type="text/css">
     .divisor {
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .decorado {
@@ -18,8 +18,18 @@
         height: 25px;
     }
 
-    .sp{
+    .sp {
         z-index: -1;
+    }
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
     }
     </style>
 </head>
@@ -42,7 +52,7 @@
             </div>
         </nav>
     </section>
-    <div class="slider sp">
+    <div class="slider sp ">
         <ul class="slides">
             <li>
                 <img src="images/slider.jpg">
@@ -59,7 +69,7 @@
         </ul>
     </div>
     <div class="center-align black divisor">
-        <h2 class="white-text">Nuestros Productos</h2>
+        <h4 class="white-text">Nuestros Productos</h4>
     </div>
     <div class="carousel">
         <a class="carousel-item" href="#one!"><img src="images/slider.jpg"></a>
