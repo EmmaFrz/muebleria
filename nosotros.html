@@ -5,7 +5,7 @@
     <title>Living Total</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="images/sofa.png" />
     <style type="text/css">
     .divisor {
@@ -48,6 +48,7 @@
             <div class="nav-wrapper black">
                 <div class="container">
                     <a href="index.html" class="brand-logo center"><img src="images/logo.png" width="150" height="80" class="responsive-img"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
                         <li><a href="nosotros.html" class="flow-text">Nosotros</a></li>
                         <li><a href="productos.html" class="flow-text">Productos</a></li>
@@ -59,6 +60,12 @@
                 </div>
             </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="personaliza.html">Personaliza</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </section>
     <br>
     <br>
@@ -97,6 +104,11 @@
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+    });
+    </script>
 </body>
 
 </html>
