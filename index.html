@@ -5,6 +5,8 @@
     <title>Living Total</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="images/sofa.png" />
     <style type="text/css">
     .divisor {
         padding: 5px 0;
@@ -27,118 +29,127 @@
     main {
         flex: 1 0 auto;
     }
+
+    nav {
+        font-size: 150px;
+    }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
+
 <body>
     <br>
-    <section class="margin-header">
-        <nav>
-            <div class="nav-wrapper black">
-                <div class="container">
-                    <a href="index.html" class="brand-logo center"><img src="images/logo.png" width="150" height="80" class="responsive-img"></a>
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                    </ul>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="personaliza.html">Personaliza</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </section>
-    <div class="slider sp">
-        <ul class="slides">
-            <li>
-                <img src="images/slider.jpg">
-            </li>
-            <li>
-                <img src="images/slider1.jpg">
-            </li>
-            <li>
-                <img src="images/slider2.jpg">
-            </li>
-            <li>
-                <img src="images/slider3.jpg">
-            </li>
-        </ul>
-    </div>
-    <div class="center-align black divisor">
-        <h4 class="white-text">Nuestros Productos</h4>
-    </div>
-    <section>
-        <div class="row">
-            <div class="col s12 m8 l3 xl3">
-                <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen1a.png"><img src="images/imagen1.jpg" class="responsive-img"></a>
-            </div>
-            <div class="col s12 m8 l3 xl3">
-                <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen2a.png"><img src="images/imagen2.jpg" class="responsive-img"></a>
-            </div>
-            <div class="col s12 m8 l3 xl3">
-                <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen3a.png"><img src="images/imagen3.jpg" class="responsive-img"></a>
-            </div>
-            <div class="col s12 m8 l3 xl3">
-                <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen4a.png"><img src="images/imagen4.jpg" class="responsive-img"></a>
+<section>
+    <nav>
+        <div class="nav-wrapper black">
+            <div class="container">
+                <a href="index.html" class="brand-logo center"><img src="images/logo.png" width="150" height="80" class="responsive-img"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="nosotros.html" class="flow-text">Nosotros</a></li>
+                    <li><a href="productos.html" class="flow-text">Productos</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="personaliza.html" class="flow-text">Personaliza</a></li>
+                    <li><a href="contacto.html" class="flow-text">Contacto</a></li>
+                </ul>
             </div>
         </div>
-    </section>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="personaliza.html">Personaliza</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</section>
+<div class="super-c">
+    <div class="slider fullscreen">
+        <ul class="slides">
+            <li>
+                <img src="images/slider.jpg" alt="">
+                <li>
+                    <img src="images/slider1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/slider2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/slider3.jpg" alt="">
+                </li>
+        </ul>
+    </div>
+</div>
+<div class="center-align black divisor">
+    <h4 class="white-text">Nuestros Productos</h4>
+</div>
+<section>
+    <div class="row">
+        <div class="col s12 m8 l3 xl3">
+            <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen1a.png"><img src="images/imagen1.jpg" class="responsive-img"></a>
+        </div>
+        <div class="col s12 m8 l3 xl3">
+            <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen2a.png"><img src="images/imagen2.jpg" class="responsive-img"></a>
+        </div>
+        <div class="col s12 m8 l3 xl3">
+            <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen3a.png"><img src="images/imagen3.jpg" class="responsive-img"></a>
+        </div>
+        <div class="col s12 m8 l3 xl3">
+            <a data-fancybox data-caption="Mas informacion sobre el producto" href="images/imagen4a.png"><img src="images/imagen4.jpg" class="responsive-img"></a>
+        </div>
+    </div>
     <div class="center-align black divisor">
         <a class="waves-effect waves-light btn-large white black-text" href="">Ver mas Productos</a>
     </div>
-    <div class="decorado  orange darken-4">
+    <div class="decorado  orange darken-4"></div>
+    <div class="container">
+        <h4 class="center-align">Contactanos</h4>
+        <div class="row">
+            <div class="col s12 m12 l8 xl8">
+                <div class="video-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.561344856104!2d-58.40976078421266!3d-34.615252165616624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccafa9e6e64cd%3A0x8e82be5715d74b65!2sAv.+Belgrano+2964%2C+C1209AAO+CABA!5e0!3m2!1ses-419!2sar!4v1515263741302" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col s12 m12 l4 xl4">
+                <ul>
+                    <li><img class="responsive-img" height="50" width="50" src="images/3.png">Tel: 4932-2266 </li>
+                    <br>
+                    <li><img class="responsive-img" height="50" width="50" src="images/5.png">Dir: Av. Belgrano 2964</li>
+                    <br>
+                    <li><img class="responsive-img" height="50" width="50" src="images/4.png">Mail: livingtotal40@gmail.com </li>
+                    <br>
+                    <li><img class="responsive-img" height="50" width="50" src="images/7.png"> /Livingtotal </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <br>
-    <br>
-    <section>
+    </div>
+</section>
+<div class="decorado2 black"></div>
+<footer class="page-footer deep-orange accent-4">
+    <div class="container">
+        <h2 class="center-align">¡Gracias por elegirnos!</h2>
+    </div>
+    <div class="footer-copyright">
         <div class="container">
-            <div class="row">
-                <div class="col s12 m12 l8 xl8">
-                    <div class="video-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.561344856104!2d-58.40976078421266!3d-34.615252165616624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccafa9e6e64cd%3A0x8e82be5715d74b65!2sAv.+Belgrano+2964%2C+C1209AAO+CABA!5e0!3m2!1ses-419!2sar!4v1515263741302" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4 xl4">
-                    <ul>
-                        <li><img src="">Tel: 4932-2266 </li>
-                        <br>
-                        <li><img src="">Dir: Av. Belgrano 2964</li>
-                        <br>
-                        <li><img src="">Mail: livingtotal40@gmail.com </li>
-                        <br>
-                        <li><img src=""> /Livingtotal </li>
-                    </ul>
-                </div>
-            </div>
+            © 2018 Empuje
+            <a class="grey-text text-lighten-4 right" href="www.empuje.com.ar">Pagina web</a>
         </div>
-        </div>
-    </section>
-    <div class="decorado2 black"></div>
-    <footer class="page-footer deep-orange accent-4">
-        <div class="container">
-            <h2 class="center-align">¡Gracias por elegirnos!</h2>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2018 Empuje
-                <a class="grey-text text-lighten-4 right" href="www.empuje.com.ar">Pagina web</a>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.slider').slider();
-    });
-    $(document).ready(function() {
-        $('.carousel').carousel();
-    });
-    </script>
+    </div>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.slider').slider();
+});
+$(document).ready(function() {
+    $('.sidenav').sidenav();
+});
+</script>
 </body>
 
 </html>
