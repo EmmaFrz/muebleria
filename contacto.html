@@ -72,7 +72,7 @@
             <div class="col s12 m12 l6 xl6">
                 <img src="images/fachada.JPG" class="responsive-img hide-on-med-and-down">
             </div>
-            <form class="col s12 m12 l6 xl6">
+            <form class="col s12 m12 l6 xl6" action="enviar.php" method="POST">
                 <div class="input-field col s12">
                     <input type="text" name="nombre" placeholder="Tu nombre..." id="nombre">
                     <label for="nombre">Nombre</label>
@@ -82,11 +82,11 @@
                     <label for="email">Correo</label>
                 </div>
                 <div class="input-field col s12">
-                    <input type="number" name="telephone" placeholder="Tu telefono..." id="telephone" class="validate">
-                    <label for="telephone">Telefono</label>
+                    <input type="number" name="telefono" placeholder="Tu telefono..." id="telefono" class="validate">
+                    <label for="telefono">Telefono</label>
                 </div>
                 <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <textarea id="textarea1" class="materialize-textarea" name="asunto"></textarea>
                     <label for="textarea1">Asunto</label>
                 </div>
                 <div class="col s12">
